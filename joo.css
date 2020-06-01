@@ -1,0 +1,97 @@
+
+.body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background: url('101672246_309220403409667_6743598279675609088_n.jpg') no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar {
+    height: 100px;
+    width: 100%;
+    background: rgba(0,0,0,0.5);
+    display:flex;
+    align-content:stretch;
+    justify-content:space-between;
+}
+
+.navbar ul{
+    display:flex;
+    text-align:right;
+    list-style-type:none;
+}
+
+.logo {
+    background: url('black-sedan-on-the-road-near-city-buildings-3923522.jpg')no-repeat width:90px;
+    height: 90px;
+    margin-left: 20px;
+    margin-top: 10px;
+    border: 2px solid white;
+    border-radius: 19px;
+    box-shadow: 10px 0px 15px;
+}
+
+navbar ul {
+    float: right;
+    margin-right: 30px;
+}
+
+.Navbar ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+}
+
+
+Navbar ul li a {
+    Text-decoration: none;
+    Color: white;
+     Font-size:20px;
+    padding:6px 13px;
+    transition:.5s;
+}
+.navbar ul li a.active,.navbar ul li a:hover{
+    background:red;
+    border-radius:2px;
+}
+.container .center{
+    position:absolute;
+    transform:translate(-50%,-50%);
+    top:50%;
+    left:50%;
+    font-family:"palatino linotype", "book antiqua", palatino,serif;
+    
+    
+}
+.center{
+color:white;
+font-size:50px;
+font-weight:bold;
+width:900px;
+text-align:center;
+
+}
+.btn .button{
+    margin:35px,280px;
+}
+.btn{
+    height:130px;
+    width:300px;
+    font-size:50px;
+    color:#ffb3b3;
+    background:red;
+    border:1px solid #cc0000;
+    outline:none;
+    border-radius:15px;
+     transition:.5s;
+    
+}
+ .btn{
+    margin-left: 50;
+    
+}
